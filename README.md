@@ -4,12 +4,12 @@ Swin Transformer–based **camera pose regression** on 7-Scenes (3D translation 
 Includes MiDaS depth checks and YOLO experiments used in the reports.
 
 ## What's here
-- **Code/Notebooks:** `notebooks/` (e.g., `swin.ipynb`, `posemat.ipynb`, `yolo.ipynb`, MiDaS tests)
-- **Model impl:** `swin_functions_and_classes.py` (next to the notebook or under `src/models/`)
-- **Reports/Slides:** `docs/reports/`, `docs/slides/` (PDFs)
+- **Code/Notebooks:** `notebooks/` (e.g., `posemat.ipynb`, `yolo.ipynb`, MiDaS tests)
+- **Train impl:** `train.ipynb`, `swin_functions_and_classes.py`
+- **Reports/Slides:** `docs/reports/`, `docs/slides/`
 - **Results (txt):** `docs/results/` (`train_loss_epoch_500.txt`, `test_loss_*.txt`)
 - **Env:** `requirements.txt`
-- **Data notes:** `data/README.md` (how to get 7-Scenes)
+- **Data notes:** `src/data/README.md` (how to get 7-Scenes)
 
 ## Quickstart
 
